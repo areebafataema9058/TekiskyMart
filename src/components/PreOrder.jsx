@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/styles/PreOrder.css';
+import '../assets/styles/Preorder.css';
 
 const PreOrder = () => {
   const [formData, setFormData] = useState({
