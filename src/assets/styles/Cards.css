@@ -1,0 +1,105 @@
+/* Product Cards Container */
+.product-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* padding: 20px; */
+}
+
+/* Product Card */
+.product-card {
+  width: 250px;
+  height: 380px; /* Ensures uniform height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image */
+.product-image-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Product Info */
+.product-info {
+  text-align: center;
+  width: 100%;
+}
+
+.product-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-category {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Pricing Section */
+.product-pricing {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: red;
+}
+
+.offer-price {
+  color: green;
+}
+
+/* Buy Now Button */
+.product-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buy-now-button {
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.buy-now-button:hover {
+  background: #007bff;
+}
